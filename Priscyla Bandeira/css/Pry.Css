@@ -1,0 +1,514 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color:#141325;
+   color: #023D54;
+
+}
+
+.header01{
+top: 0;
+left: 0;
+width: 100%;
+display: flex;
+padding: 30px;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+
+}
+
+
+.logo{
+font-size: 25px;
+color: aliceblue;
+text-decoration: none;
+font-weight: 600;
+}
+
+.navBar a{
+    font-size: 18px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.3s;
+    float: left;
+
+}
+
+.navBar a:hover{
+    color: aquamarine;
+
+}
+
+@media only screen and (max-width: 414px) {
+
+    /* Estilos para iPhone XR */
+    .header01 {
+        margin: auto;
+        /* Ajuste as margens conforme necessário */
+    }
+}
+
+@media only screen and (max-width: 414px) {
+
+    /* Estilos para iPhone XR */
+    .navBar a {
+        font-size: 15px;
+        text-align: center;
+        flex-direction: column;
+        /* Ajuste as margens conforme necessário */
+    }
+}
+
+
+
+.Home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 10%;
+    background: url("../Img/Design\ sem\ nome.png");
+    background-position:center;
+    background-size: cover;
+}
+
+
+
+.Home-content{
+    font-size: 20px;
+    max-width: 700px;
+}
+
+.Home-content h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.Home-content h3{
+    font-size: 35px;
+    font-weight: 700;
+    color: aquamarine;
+
+}
+
+
+
+.Home-content .btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 50px;
+}
+
+@media only screen and (max-width: 414px) {
+
+    /* Estilos para iPhone XR */
+    .Home-content h1{
+        font-size: 30px;
+        /* Ajuste as margens conforme necessário */
+    }
+}
+
+@media only screen and (max-width: 414px) {
+
+    /* Estilos para iPhone XR */
+    .Home-content {
+        font-size: 16px;
+        /* Ajuste as margens conforme necessário */
+    }
+}
+
+@media only screen and (max-width: 414px) {
+
+    /* Estilos para iPhone XR */
+    .Home-content h3{
+        font-size: 16px;
+        /* Ajuste as margens conforme necessário */
+    }
+}
+
+@media only screen and (max-width: 414px) {
+
+    /* Estilos para iPhone XR */
+    .Home-content p{
+        font-size: 10px;
+        /* Ajuste as margens conforme necessário */
+    }
+}
+
+
+
+
+
+.port{
+    display: flex;
+    background: url("../Img/Background-port.png");
+    align-items: center;
+    height: 100vh;
+    padding: 10%;
+    background-position:center;
+    background-size: cover;
+}
+
+
+
+.port-content{
+    font-size: 20px;
+    max-width: 700px;
+}
+
+.port-content h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.port-content h3{
+    font-size: 35px;
+    font-weight: 700;
+    color:#023D54;
+
+}
+
+
+
+.port-content .btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 50px;
+}
+
+@media only screen and (max-width: 414px) {
+
+    /* Estilos para iPhone XR */
+    .port-content h1{
+        font-size: 30px;
+        /* Ajuste as margens conforme necessário */
+    }
+}
+
+@media only screen and (max-width: 414px) {
+
+    /* Estilos para iPhone XR */
+    .port-content {
+        font-size: 16px;
+        /* Ajuste as margens conforme necessário */
+    }
+}
+
+@media only screen and (max-width: 414px) {
+
+    /* Estilos para iPhone XR */
+    .port-content h3{
+        font-size: 16px;
+        /* Ajuste as margens conforme necessário */
+    }
+}
+
+@media only screen and (max-width: 414px) {
+
+    /* Estilos para iPhone XR */
+    .port-content p{
+        font-size: 10px;
+        /* Ajuste as margens conforme necessário */
+    }
+}
+
+
+.port-icons{
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.port-icons img{
+    width: 40px;
+    height: 40px;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+
+.btn-box a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 60px;
+    background:aqua;
+    border: 2px solid aqua;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #141325;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    z-index: 1;
+    overflow: hidden;
+
+}
+
+@media only screen and (max-width: 414px) {
+
+    /* Estilos para iPhone XR */
+    .btn-box a{
+        font-size: 14px;
+        width: 130px;
+        height: 40px;
+        margin-right: 50px;
+        align-items: center;
+        
+        /* Ajuste as margens conforme necessário */
+    }
+}
+
+
+    
+.btn-box a:nth-child(2){
+    background: transparent;
+    color: aquamarine;
+}
+
+
+.btn-box a:nth-child(2):hover{
+    color: #141325;
+}
+
+
+.btn-box a:nth-child(2)::before{
+    background-color: aqua;
+
+}
+.btn-box a::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color:#141325;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.btn-box a:hover::before{
+    width: 100%;
+ 
+
+}
+
+.btn-box a:hover{
+    color: aqua;
+}
+.Home-icons{
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Home-icons img{
+    width: 40px;
+    height: 40px;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+.Sobre-mim{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.heading{
+    font-size:50px;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.heading span{
+    color: aqua;
+}
+
+.Sobre-Img img{
+    position: relative;
+    bottom: 20px;
+    width: 500px;
+    height: 500px;
+}
+
+.Sobre-Img img{
+    border-radius: 50%;
+}
+
+.Sobre-content{
+    text-align: center;
+}
+
+.Sobre-content h3{
+    font-size: 21px;
+
+}
+
+.Sobre-content p{
+    font-size: 18px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.btn-box {
+    display: inline-block;
+
+}
+
+.btn-box .btn{
+    width: 130px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+
+}
+
+.btn-box .btn a::before{
+    background: aqua
+}
+
+.corpus3{
+    background-color: black;
+    pad: 30px;
+}
+
+.corpus3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(37, 176, 231);
+}
+.relogio1{
+    background-color: #023D54; 
+    padding: 80px;
+ }
+
+.relogio{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 550px;
+    background: transparent;
+    box-shadow: 5px;
+    color:aqua;
+    
+  
+}
+
+ .relogio div{
+    width: 140px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 3px;
+    flex-direction: column ;
+    justify-content: center;
+    background: rgba(5,5,5,5);
+    box-shadow: 5px 5px 15px;
+    border-radius: 50%;
+    
+ }
+
+ @media only screen and (max-width: 768px) {
+    .relogio1 .relogio {
+    
+        justify-content: space-between;
+        width: 40%; /* Dividir em duas colunas em telas menores */
+        position:relative;
+
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .relogio1 div {
+      
+       
+        margin: 10px;
+    }
+}
+ .corpus4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color:  #023D54;
+ }
+
+
+ @media only screen and (max-width: 414px) {
+
+    /* Estilos para iPhone XR */
+    .corpus4{
+        margin: auto;
+        /* Ajuste as margens conforme necessário */
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background-color: black;
+    margin: auto;
+}
+
+
+
+.education {
+   
+    padding: 130px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centralizar os elementos horizontalmente */
+    position: relative; /* Necessário para o posicionamento absoluto */
+}
+
+.heading01 {
+    position: absolute;
+    top: 0;
+    bottom: 15px;
+    left: 50%; /* Posiciona o elemento no centro horizontal */
+    transform: translateX(-50%); /* Corrige o alinhamento para o centro */
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 414px) {
+
+    /* Estilos para iPhone XR */
+    .education{
+        padding: 5px;
+        height: 800px;
+        /* Ajuste as margens conforme necessário */
+    }
+}
